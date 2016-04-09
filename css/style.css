@@ -18,7 +18,211 @@
     }
     
 }
+@-moz-keyframes eyes-wrapper{
+    
+    0%{
+        height: 60px;
+        top: 40px;
+    }
+    90%{
+        height: 60px;
+        top: 40px;
+    }
+    95%{
+        height: 0;
+        top: 70px
+    }
+    100%{
+        height: 60px;
+        top: 40px
+    }
+    
+}
+@-ms-keyframes eyes-wrapper{
+    
+    0%{
+        height: 60px;
+        top: 40px;
+    }
+    90%{
+        height: 60px;
+        top: 40px;
+    }
+    95%{
+        height: 0;
+        top: 70px
+    }
+    100%{
+        height: 60px;
+        top: 40px
+    }
+    
+}
+@-o-keyframes eyes-wrapper{
+    
+    0%{
+        height: 60px;
+        top: 40px;
+    }
+    90%{
+        height: 60px;
+        top: 40px;
+    }
+    95%{
+        height: 0;
+        top: 70px
+    }
+    100%{
+        height: 60px;
+        top: 40px
+    }
+    
+}
+@keyframes eyes-wrapper{
+    
+    0%{
+        height: 60px;
+        top: 40px;
+    }
+    90%{
+        height: 60px;
+        top: 40px;
+    }
+    95%{
+        height: 0;
+        top: 70px
+    }
+    100%{
+        height: 60px;
+        top: 40px
+    }
+    
+}
 @-webkit-keyframes eyes{
+    
+    0%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(8px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(-8px);
+    }
+    90%{
+        height: 40px;
+        top: 50px;
+    }
+    95%{
+        height: 0;
+        top: 70px;
+    }
+    100%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    
+}
+@-moz-keyframes eyes{
+    
+    0%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(8px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(-8px);
+    }
+    90%{
+        height: 40px;
+        top: 50px;
+    }
+    95%{
+        height: 0;
+        top: 70px;
+    }
+    100%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    
+}
+@-ms-keyframes eyes{
+    
+    0%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(8px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(-8px);
+    }
+    90%{
+        height: 40px;
+        top: 50px;
+    }
+    95%{
+        height: 0;
+        top: 70px;
+    }
+    100%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    
+}
+@-o-keyframes eyes{
+    
+    0%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(8px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(-8px);
+    }
+    90%{
+        height: 40px;
+        top: 50px;
+    }
+    95%{
+        height: 0;
+        top: 70px;
+    }
+    100%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    
+}
+@keyframes eyes{
     
     0%{
         height: 40px;
@@ -98,8 +302,12 @@ body{
     border: 2px solid #ccc;
     border-radius: 30px;
     top: 40px;
-    animation: eyes-wrapper linear 3s;
-    animation-iteration-count: infinite;
+    
+    animation: eyes-wrapper linear 3s infinite;
+    -webkit-animation: eyes-wrapper linear 3s infinite;
+    -moz-animation: eyes-wrapper linear 3s infinite;
+    -ms-animation: eyes-wrapper linear 3s infinite;
+    -o-animation: eyes-wrapper linear 3s infinite;
 }
 #eyes-wrapper-l{
     left: 135px;
@@ -111,8 +319,12 @@ body{
     height: 40px;
     border: 1px solid #ccc;
     top: 50px;
-    animation: eyes linear 3s;
-    animation-iteration-count: infinite;
+    
+    animation: eyes linear 3s infinite;
+    -webkit-animation: eyes linear 3s infinite;
+    -moz-animation: eyes linear 3s infinite;
+    -ms-animation: eyes linear 3s infinite;
+    -o-animation: eyes linear 3s infinite;
 }
 #eyes-l{
     left: 165px;
@@ -140,7 +352,15 @@ body{
 }
 #body-1{
     transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
 }
 #body-2{
     transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
 }
