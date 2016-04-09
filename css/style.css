@@ -1,0 +1,146 @@
+@-webkit-keyframes eyes-wrapper{
+    
+    0%{
+        height: 60px;
+        top: 40px;
+    }
+    90%{
+        height: 60px;
+        top: 40px;
+    }
+    95%{
+        height: 0;
+        top: 70px
+    }
+    100%{
+        height: 60px;
+        top: 40px
+    }
+    
+}
+@-webkit-keyframes eyes{
+    
+    0%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(8px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(-8px);
+    }
+    90%{
+        height: 40px;
+        top: 50px;
+    }
+    95%{
+        height: 0;
+        top: 70px;
+    }
+    100%{
+        height: 40px;
+        top: 50px;
+        transform: translateX(0);
+    }
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#container{
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+#head,#face,#eyes-wrapper-l,#eyes-wrapper-r,#eyes-l,#eyes-r,#nose,#mouse,#body-1,#body-2{
+    position: absolute;
+    box-sizing: border-box;
+}
+#head{
+    width: 200px;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    left: 100px;
+}
+#face{
+    width: 120px;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-top-color: #fff;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    left: 140px;
+    top: 98px;
+}
+#eyes-wrapper-l,#eyes-wrapper-r{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    top: 40px;
+    animation: eyes-wrapper linear 3s;
+    animation-iteration-count: infinite;
+}
+#eyes-wrapper-l{
+    left: 135px;
+}
+#eyes-wrapper-r{
+    left: 205px;
+}
+#eyes-l,#eyes-r{
+    height: 40px;
+    border: 1px solid #ccc;
+    top: 50px;
+    animation: eyes linear 3s;
+    animation-iteration-count: infinite;
+}
+#eyes-l{
+    left: 165px;
+}
+#eyes-r{
+    left: 235px;
+}
+#nose{
+    height: 20px;
+    border: 1px solid #ccc;
+    left: 200px;
+    top: 110px;
+}
+#mouse{
+    width: 50px;
+    border: 1px solid #ccc;
+    top: 160px;
+    left: 175px;
+}
+#body-1,#body-2{
+    width: 200px;
+    border: 1px solid #ccc;
+    top: 250px;
+    left: 100px;
+}
+#body-1{
+    transform: rotate(30deg);
+}
+#body-2{
+    transform: rotate(-30deg);
+}
