@@ -1,255 +1,74 @@
-@-webkit-keyframes eyes-wrapper{
-    
-    0%{
-        height: 60px;
-        top: 40px;
-    }
-    90%{
-        height: 60px;
-        top: 40px;
-    }
-    95%{
-        height: 0;
-        top: 70px
-    }
-    100%{
-        height: 60px;
-        top: 40px
-    }
-    
-}
-@-moz-keyframes eyes-wrapper{
-    
-    0%{
-        height: 60px;
-        top: 40px;
-    }
-    90%{
-        height: 60px;
-        top: 40px;
-    }
-    95%{
-        height: 0;
-        top: 70px
-    }
-    100%{
-        height: 60px;
-        top: 40px
-    }
-    
-}
-@-ms-keyframes eyes-wrapper{
-    
-    0%{
-        height: 60px;
-        top: 40px;
-    }
-    90%{
-        height: 60px;
-        top: 40px;
-    }
-    95%{
-        height: 0;
-        top: 70px
-    }
-    100%{
-        height: 60px;
-        top: 40px
-    }
-    
-}
-@-o-keyframes eyes-wrapper{
-    
-    0%{
-        height: 60px;
-        top: 40px;
-    }
-    90%{
-        height: 60px;
-        top: 40px;
-    }
-    95%{
-        height: 0;
-        top: 70px
-    }
-    100%{
-        height: 60px;
-        top: 40px
-    }
-    
-}
 @keyframes eyes-wrapper{
-    
+
     0%{
-        height: 60px;
+        height:60px;
         top: 40px;
-    }
-    90%{
-        height: 60px;
+    } 
+    70%{
+        height:60px;
         top: 40px;
-    }
-    95%{
-        height: 0;
-        top: 70px
-    }
-    100%{
-        height: 60px;
-        top: 40px
-    }
-    
-}
-@-webkit-keyframes eyes{
-    
-    0%{
-        height: 40px;
-        top: 50px;
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(8px);
-    }
-    50%{
-        transform: translateX(0);
-    }
-    75%{
-        transform: translateX(-8px);
-    }
-    90%{
-        height: 40px;
-        top: 50px;
-    }
-    95%{
-        height: 0;
+    } 
+    85%{
+        height:0px;
         top: 70px;
     }
     100%{
-        height: 40px;
-        top: 50px;
-        transform: translateX(0);
-    }
-    
-}
-@-moz-keyframes eyes{
-    
-    0%{
-        height: 40px;
-        top: 50px;
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(8px);
-    }
-    50%{
-        transform: translateX(0);
-    }
-    75%{
-        transform: translateX(-8px);
-    }
-    90%{
-        height: 40px;
-        top: 50px;
-    }
-    95%{
-        height: 0;
-        top: 70px;
-    }
-    100%{
-        height: 40px;
-        top: 50px;
-        transform: translateX(0);
-    }
-    
-}
-@-ms-keyframes eyes{
-    
-    0%{
-        height: 40px;
-        top: 50px;
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(8px);
-    }
-    50%{
-        transform: translateX(0);
-    }
-    75%{
-        transform: translateX(-8px);
-    }
-    90%{
-        height: 40px;
-        top: 50px;
-    }
-    95%{
-        height: 0;
-        top: 70px;
-    }
-    100%{
-        height: 40px;
-        top: 50px;
-        transform: translateX(0);
-    }
-    
-}
-@-o-keyframes eyes{
-    
-    0%{
-        height: 40px;
-        top: 50px;
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(8px);
-    }
-    50%{
-        transform: translateX(0);
-    }
-    75%{
-        transform: translateX(-8px);
-    }
-    90%{
-        height: 40px;
-        top: 50px;
-    }
-    95%{
-        height: 0;
-        top: 70px;
-    }
-    100%{
-        height: 40px;
-        top: 50px;
-        transform: translateX(0);
+        height:60px;
+        top: 40px;
     }
     
 }
 @keyframes eyes{
-    
+
     0%{
-        height: 40px;
+        height:40px;
         top: 50px;
-        transform: translateX(0);
+        transform: translateX(0px);
     }
-    25%{
-        transform: translateX(8px);
-    }
-    50%{
-        transform: translateX(0);
-    }
-    75%{
-        transform: translateX(-8px);
-    }
-    90%{
-        height: 40px;
+    12%{
+        height:40px;
         top: 50px;
+        transform: translateX(0px);
     }
-    95%{
-        height: 0;
+    24%{
+        height:30px;
+        top: 55px;
+        transform: translateX(-20px);
+    }
+    29%{
+        height:30px;
+        top: 55px;
+        transform: translateX(-20px);
+    }
+    41%{
+        height:40px;
+        top: 50px;
+        transform: translateX(0px);
+    }
+    53%{
+        height:30px;
+        top: 55px;
+        transform: translateX(20px);
+    }
+    58%{
+        height:30px;
+        top: 55px;
+        transform: translateX(20px);
+    }
+    70%{
+        height:40px;
+        top: 50px;
+        transform: translateX(0px);
+    }
+    85%{
+        height:0px;
         top: 70px;
+        transform: translateX(0px);
     }
     100%{
-        height: 40px;
+        height:40px;
         top: 50px;
-        transform: translateX(0);
+        transform: translateX(0px);
     }
     
 }
@@ -270,7 +89,7 @@ body{
     right: 0;
     margin: auto;
 }
-#container{
+#wrapper #container{
     width: 400px;
     height: 300px;
     position: relative;
